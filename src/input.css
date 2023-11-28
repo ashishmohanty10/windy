@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.accordion{
+    @apply bg-slate-50 py-3 px-2 border border-solid border-slate-200 rounded-lg shadow-md mb-6 cursor-pointer
+}
+
+.answer{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(15 23 42 / var(--tw-text-opacity));
+    line-height: 24px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s;
+}
+
+.icon{
+    transition: transform 0.2s;
+}
+
+.icon.active{
+    transform:rotate(-180deg) ;
+}
