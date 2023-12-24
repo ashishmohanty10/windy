@@ -3,7 +3,6 @@
 @tailwind utilities;
 
 
-
 .accordion{
     @apply bg-slate-50 py-3 px-2 border border-solid border-slate-200 rounded-lg shadow-md mb-6 cursor-pointer
 }
